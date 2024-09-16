@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #e0aaff, #cda4e0); /* Pinkish-purple gradient background */
+    background: linear-gradient(to right, #e0aaff, #cda4e0); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ h1 {
 }
 
 input {
-    width: calc(100% - 22px); /* Adjust width to account for padding and border */
+    width: calc(100% - 22px); 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
@@ -54,5 +54,5 @@ button:hover {
 
 #message {
     margin-top: 20px;
-    color: #d9534f; /* Red for error messages */
+    color: #d9534f; 
 }

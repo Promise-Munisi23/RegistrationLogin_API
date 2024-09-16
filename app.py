@@ -12,9 +12,9 @@ app.config.from_object(Config)
 db.init_app(app)
 bcrypt.init_app(app)
 jwt = JWTManager(app)
-CORS(app)  # Initialize CORS
+CORS(app)  
 
-# Initialize the database within an application context
+
 with app.app_context():
     db.create_all()
 
